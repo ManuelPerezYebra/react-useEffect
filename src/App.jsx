@@ -1,11 +1,10 @@
 import { GlobalStyles } from "./GlobalStyles/GlobalStyles";
+import UseEffectComponent from "./components/useEffectComponent/UseEffectComponent";
 
 const App = () => {
 	return <>
 	<GlobalStyles></GlobalStyles>
-	<h1>Núcleo de la aplicación</h1>;
-	
-	
+	<UseEffectComponent></UseEffectComponent>
 	</> 
 	
 };
